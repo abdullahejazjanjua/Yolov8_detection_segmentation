@@ -13,7 +13,7 @@ This repository contains my work on detection and segmentation using YOLOv8. The
 
 ### Detection
 - **Base Model**: YOLOv8n.pt
-- **Dataset**: The dataset consists of images with guns as the primary object class, with detection based on a single class: **'gun'**.
+- [**Dataset**](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/blob/main/Detection/data.txt): The dataset consists of images with guns as the primary object class, with detection based on a single class: **'gun'**.
 
 #### Modifications
 - Experimented with various hyperparameters.
@@ -31,7 +31,7 @@ This repository contains my work on detection and segmentation using YOLOv8. The
 
 ### Segmentation
 - **Base Model**: YOLOv8n-seg.pt
-- **Dataset**: The same dataset was used, but it was annotated by creating masks for each image using RoboFlow.
+- [**Dataset**](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/blob/main/Segmentation/data.txt): The same dataset was used, but it was annotated by creating masks for each image using RoboFlow.
 
 #### Modifications
 [Experimentations](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/tree/main/Segmentation/Segmentation_experimentations.ipynb)
