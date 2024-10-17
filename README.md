@@ -3,7 +3,7 @@ This repository contains my work on detection and segmentation using YOLOv8. The
 
 ## Project Overview
 
-### Detection
+## Detection
 - **Base Model**: YOLOv8n.pt
 - [**Dataset**:](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/blob/main/Detection/data.txt) The dataset consists of images with guns as the primary object class, with detection based on a single class: **'gun'**.
 
@@ -21,7 +21,7 @@ This repository contains my work on detection and segmentation using YOLOv8. The
   - mAP@50: 0.8273
   - mAP@50-95: 0.4708
 
-### Segmentation
+## Segmentation
 - **Base Model**: YOLOv8n-seg.pt
 - [**Dataset**:](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/blob/main/Segmentation/data.txt) The same dataset was used, but it was annotated by creating masks for each image using RoboFlow.
 
