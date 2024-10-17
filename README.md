@@ -1,9 +1,3 @@
-# Yolov8_detection_segmentation
-This repository contains my work on Detection and Segmentation using YOLOv8.
-Here's an improved README for your project, including details about both detection and segmentation with YOLOv8. I've added sections for segmentation and refined the overall structure and wording.
-
-# YOLOv8 Detection and Segmentation
-
 ## Introduction
 This repository contains my work on detection and segmentation using YOLOv8. The project focuses on experimenting with the YOLOv8 architecture for object detection and segmentation, particularly aimed at detecting guns in images. Modifications were made to the model architecture, and their impacts on performance were analyzed.
 
