@@ -1,5 +1,3 @@
-# YOLOv8 Detection and Segmentation Project
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
