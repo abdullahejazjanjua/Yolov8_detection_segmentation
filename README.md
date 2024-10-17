@@ -50,5 +50,26 @@ This repository contains my work on detection and segmentation using YOLOv8. The
     - Mask Precision: 0.9177
     - Mask Recall: 0.3290
 
+1. **Input Image through Conv and C2f Layers**  
+   - **Conv**: Extracts key features.  
+   - **C2f**: Refines these features and improves gradients.
+
+2. **SPPF for Multi-scale Feature Extraction**  
+   - Scales the feature map at different levels.  
+   - Produces a concatenated feature map (feature pyramid) from different scales.
+
+3. **Detection Module**  
+   - Predicts bounding boxes at each level/scale.  
+   - Uses NMS to retain the highest confidence bounding box for each object.
+
+4. **Proto Layer for Pixel-wise Object Scores**  
+   - Assigns pixel-wise object scores for the entire image, producing segmentation masks on the feature map.
+
+5. **Segmentation Module**  
+   - Extracts the segmentation mask corresponding to the predicted bounding box.  
+   - Converts the segmentation mask into a binary mask.  
+   - Upscales the mask to match the original image dimensions before outputting the final result.
+
+
 ## Conclusion
 This project demonstrates the versatility of YOLOv8 in both detection and segmentation tasks. Through various modifications to the model architecture and hyperparameters, I aimed to optimize performance for detecting and segmenting firearms. 
