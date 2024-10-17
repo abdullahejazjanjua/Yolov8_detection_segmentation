@@ -2,8 +2,6 @@
 This repository contains my work on Detection and Segmentation using YOLOv8.
 Here's an improved README for your project, including details about both detection and segmentation with YOLOv8. I've added sections for segmentation and refined the overall structure and wording.
 
----
-
 # YOLOv8 Detection and Segmentation
 
 ## Introduction
