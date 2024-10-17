@@ -49,6 +49,7 @@ This repository contains my work on detection and segmentation using YOLOv8. The
     - Box Recall: 0.8
     - Mask Precision: 0.9177
     - Mask Recall: 0.3290
+## Model Architecture Explanation
 
 1. **Input Image through Conv and C2f Layers**  
    - **Conv**: Extracts key features.  
