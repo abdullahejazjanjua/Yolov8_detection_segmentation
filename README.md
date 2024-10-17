@@ -8,7 +8,7 @@ This repository contains my work on detection and segmentation using YOLOv8, con
 - [**Dataset**:](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/blob/main/Detection/data.txt) The dataset consists of images with a single object class, **'gun'**.
 
 #### Modifications
-- Experimented with hyperparameters to observe their effects on detection accuracy.
+- [Experimented](https://github.com/abdullahejazjanjua/Yolov8_detection_segmentation/tree/main/Detection/Notebooks/Detection_on_modified_yolo) with hyperparameters to observe their effects on detection accuracy.
 - Added and removed C2f and Conv layers to explore architectural changes.
 - **Impact**: Most modifications led to a drop in Precision and Recall, offering insight into the sensitivity of the model to structural changes.
 
