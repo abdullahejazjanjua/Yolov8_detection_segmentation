@@ -7,7 +7,7 @@
 - [Conclusion](#conclusion)
 
 ## Introduction
-This repository contains my work on detection and segmentation using YOLOv8, conducted under the guidance of [Prof. Dr. Khurram Khan Jadoon](https://scholar.google.com/citations?user=LbkI6C0AAAAJ&hl=en). The project focuses on experimenting with the YOLOv8 architecture for object detection and segmentation, specifically aimed at detecting guns in images. Throughout this project, I explored how model fine-tuning, segmentation, and detection work, while analyzing the impact of modifications on model performance.
+This repository contains my work on detection and segmentation using YOLOv8. The project focuses on experimenting with the YOLOv8 architecture for object detection and segmentation, specifically aimed at detecting guns in images. Throughout this project, I explored how model fine-tuning, segmentation, and detection work, while analyzing the impact of modifications on model performance.
 
 ## Project Overview
 
